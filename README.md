@@ -133,7 +133,7 @@ For an in-depth project explanation, check out [Ppt.pdf](Ppt.pdf). 📂
 
 ## 🔮 Future Enhancements
 
-- **🎯 Improved Jewelry Detection:** Train on more diverse jewellery datasets.
+- **🎯 Improved Jewellery Detection:** Train on more diverse jewellery datasets.
 - **🕶️ Augmented Reality (AR):** Enhance the try-on experience with live tracking.
 - **📱 Mobile Compatibility:** Optimize for smartphones and tablets.
 - **📏 Personalized Recommendations:** AI-based jewellery recommendations.
