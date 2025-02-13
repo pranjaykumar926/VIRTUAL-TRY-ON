@@ -2,7 +2,7 @@
 *🚀 Transforming Online Jewellery Shopping with AI & Augmented Reality* ✨
 
 [![🐍 Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)  
-[![🦾 YOLO](https://img.shields.io/badge/YOLO-ObjectDetection-red)](https://pjreddie.com/darknet/yolo/)  
+[![🧫 YOLO](https://img.shields.io/badge/YOLO-ObjectDetection-red)](https://pjreddie.com/darknet/yolo/)  
 [![📷 OpenCV](https://img.shields.io/badge/OpenCV-4.x-brightgreen)](https://opencv.org/)
 
 > **Virtual Try-On for Jewellery** 💎 is an AI-powered project that enables users to virtually try on earrings, necklaces, rings, and other jewellery pieces. This innovative solution enhances the online jewellery shopping experience, allowing customers to see how pieces look before purchasing. 🛍️
@@ -13,16 +13,16 @@
 
 - [✨ Overview](#overview)
 - [🎯 Features](#features)
-- [📽️ Demo](#demo)
-- [🛠 Technologies Used](#technologies-used)
+- [🎮 Demo](#demo)
+- [🛠️ Technologies Used](#technologies-used)
 - [⚙️ Installation & Setup](#installation--setup)
 - [🚀 Usage](#usage)
-- [📓 YOLO Training Notebook](#yolo-training-notebook)
+- [📚 YOLO Training Notebook](#yolo-training-notebook)
 - [📊 Presentation](#presentation)
 - [🔮 Future Enhancements](#future-enhancements)
 - [🤝 Contributing](#contributing)
-- [📜 License](#license)
-- [📬 Contact](#contact)
+- [🐟 License](#license)
+- [📩 Contact](#contact)
 
 ---
 
@@ -32,26 +32,26 @@ In the digital era, shopping for jewellery online can be challenging without see
 
 - **🎯 Real-Time Jewellery Detection:** Using a custom-trained YOLO model to detect jewellery pieces.
 - **💻 Interactive Web Application:** Allows users to upload their photos or use a webcam for a virtual try-on.
-- **🔗 End-to-End AI Pipeline:** Includes model training and a web-based demonstration.
+- **🔗 End-to-End AI Pipeline:** Includes model training and an interactive web-based demonstration.
 
 ---
 
 ## 🎯 Features
 
 - **✅ Accurate Jewellery Detection:** Uses YOLO for precise object detection.
-- **🖥️ User-Friendly Interface:** Easy-to-use web app built with Python.
+- **🔧 User-Friendly Interface:** Easy-to-use web app built with Python.
 - **⚡ Real-Time Virtual Try-On:** Overlay earrings, necklaces, rings, and more in real time.
 - **🛠️ Modular Codebase:** Clean and well-structured for future improvements.
-- **📽️ Demonstrative Assets:** GIFs and a presentation (Ppt.pdf) included.
+- **🎮 Demonstrative Assets:** GIFs and a presentation (Ppt.pdf) included.
 
 ---
 
-## 📽️ Demo
+## 🎮 Demo
 
 Check out a preview of how the Virtual Try-On works:
 
 ![Virtual Try-On Demo](try.gif)  
-*🎬 An animated demo showcasing the jewellery try-on feature.*
+*🎮 An animated demo showcasing the jewellery try-on feature.*
 
 Alternatively, check out this additional demonstration:
 
@@ -59,11 +59,11 @@ Alternatively, check out this additional demonstration:
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - **🐍 Python:** The core programming language.
-- **🦾 YOLO:** Detects and segments jewellery items.
-- **📓 Jupyter Notebook:** For training and fine-tuning the YOLO model (`YOLO_TRAINING.ipynb`).
+- **🧫 YOLO:** Detects and segments jewellery items.
+- **📚 Jupyter Notebook:** For training and fine-tuning the YOLO model (`YOLO_TRAINING.ipynb`).
 - **🌐 Flask (or similar frameworks):** Runs the web application (`app.py`).
 - **📷 OpenCV:** Image processing and real-time computer vision.
 
@@ -80,7 +80,7 @@ Follow these steps to get started:
    cd VIRTUAL-TRY-ON
    ```
 
-2. **🛠 Create a Virtual Environment (Optional but Recommended):**
+2. **🔧 Create a Virtual Environment (Optional but Recommended):**
 
    ```bash
    python -m venv venv
@@ -93,9 +93,9 @@ Follow these steps to get started:
    pip install -r requirements.txt
    ```
 
-4. **📥 Download Pre-trained Weights (if applicable):**
+4. **📝 Download Pre-trained Weights (if applicable):**
 
-   Follow the instructions in `YOLO_TRAINING.ipynb` to get model weights.
+   Follow the steps in `YOLO_TRAINING.ipynb` to obtain the model weights.
 
 ---
 
@@ -115,13 +115,13 @@ To launch the web application demo:
 
 ---
 
-## 📓 YOLO Training Notebook
+## 📚 YOLO Training Notebook
 
 The `YOLO_TRAINING.ipynb` notebook includes:
 
-- 🛠 Data preprocessing and augmentation
+- 🛠️ Data preprocessing and augmentation
 - 🎯 YOLO model training configuration
-- 📈 Model evaluation steps
+- 📊 Model evaluation steps
 
 ---
 
@@ -134,9 +134,9 @@ For an in-depth project explanation, check out [Ppt.pdf](Ppt.pdf). 📂
 ## 🔮 Future Enhancements
 
 - **🎯 Improved Jewellery Detection:** Train on more diverse jewellery datasets.
-- **🕶️ Augmented Reality (AR):** Enhance the try-on experience with live tracking.
+- **💆️ Augmented Reality (AR):** Enhance the try-on experience with live tracking.
 - **📱 Mobile Compatibility:** Optimize for smartphones and tablets.
-- **📏 Personalized Recommendations:** AI-based jewellery recommendations.
+- **👕 Personalized Recommendations:** AI-based jewellery recommendations.
 
 ---
 
@@ -151,18 +151,18 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📜 License
+## 🐟 License
 
 *This project is currently not licensed. Contact the repository owner for permissions.*
 
 ---
 
-## 📬 Contact
+## 📩 Contact
 
 For inquiries or collaborations, reach out:
 
-- **GitHub:** [pranjaykumar926](https://github.com/pranjaykumar926) 🏗️
-- **📧 Email:** *[pranjaykumar926@gmail.com](mailto:pranjaykumar926@gmail.com)* 📩
+- **GitHub:** [pranjaykumar926](https://github.com/pranjaykumar926) 🏰️
+- **💌 Email:** *[pranjaykumar926@gmail.com](mailto:pranjaykumar926@gmail.com)* 📩
 
 ---
 
