@@ -1,170 +1,62 @@
-# 💍 Virtual Try-On for Jewellery  
-*🚀 Transforming Online Jewellery Shopping with AI & Augmented Reality* ✨
+# Virtual Try-On for Jewellery
 
-[![🐍 Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)  
-[![🧫 YOLO](https://img.shields.io/badge/YOLO-ObjectDetection-red)](https://pjreddie.com/darknet/yolo/)  
-[![📷 OpenCV](https://img.shields.io/badge/OpenCV-4.x-brightgreen)](https://opencv.org/)
+This repository presents an AI-powered solution to revolutionize the online jewellery shopping experience through virtual try-on capabilities. By integrating computer vision and deep learning techniques, users can try on jewellery items virtually using either uploaded images or their webcam.
 
-> **Virtual Try-On for Jewellery** 💎 is an AI-powered project that enables users to virtually try on earrings, necklaces, rings, and other jewellery pieces. This innovative solution enhances the online jewellery shopping experience, allowing customers to see how pieces look before purchasing. 🛍️
+## Features
 
----
+* **Real-Time Jewellery Detection**
+  Utilizes a custom-trained YOLO (You Only Look Once) model to detect and localize jewellery such as earrings, necklaces, and rings in real time.
 
-## 📌 Table of Contents
+* **Interactive Web Application**
+  Offers a user-friendly interface for uploading images or using webcam feeds to simulate jewellery try-ons.
 
-- [✨ Overview](#overview)
-- [🎯 Features](#features)
-- [🎮 Demo](#demo)
-- [🛠️ Technologies Used](#technologies-used)
-- [⚙️ Installation & Setup](#installation--setup)
-- [🚀 Usage](#usage)
-- [📚 YOLO Training Notebook](#yolo-training-notebook)
-- [📊 Presentation](#presentation)
-- [🔮 Future Enhancements](#future-enhancements)
-- [🤝 Contributing](#contributing)
-- [🐟 License](#license)
-- [📩 Contact](#contact)
+* **End-to-End AI Pipeline**
+  Covers all stages from model training to deployment, providing a seamless user experience.
 
----
+## Technologies Used
 
-## ✨ Overview
+* **Python** – Core programming language for model development and application logic.
+* **YOLO** – Object detection model used for jewellery localization.
+* **OpenCV** – Library used for real-time image processing and integration.
 
-In the digital era, shopping for jewellery online can be challenging without seeing how it looks when worn. **Virtual Try-On for Jewellery** solves this problem by leveraging computer vision and deep learning. The project demonstrates:
+## Setup Instructions
 
-- **🎯 Real-Time Jewellery Detection:** Using a custom-trained YOLO model to detect jewellery pieces.
-- **💻 Interactive Web Application:** Allows users to upload their photos or use a webcam for a virtual try-on.
-- **🔗 End-to-End AI Pipeline:** Includes model training and an interactive web-based demonstration.
-
----
-
-## 🎯 Features
-
-- **✅ Accurate Jewellery Detection:** Uses YOLO for precise object detection.
-- **🔧 User-Friendly Interface:** Easy-to-use web app built with Python.
-- **⚡ Real-Time Virtual Try-On:** Overlay earrings, necklaces, rings, and more in real time.
-- **🛠️ Modular Codebase:** Clean and well-structured for future improvements.
-- **🎮 Demonstrative Assets:** GIFs and a presentation (Ppt.pdf) included.
-
----
-
-## 🎮 Demo
-
-Check out a preview of how the Virtual Try-On works:
-
-![Virtual Try-On Demo](try.gif)  
-*🎮 An animated demo showcasing the jewellery try-on feature.*
-
-Alternatively, check out this additional demonstration:
-
-![Try-On Process](vto.gif)
-
----
-
-## 🛠️ Technologies Used
-
-- **🐍 Python:** The core programming language.
-- **🧫 YOLO:** Detects and segments jewellery items.
-- **📚 Jupyter Notebook:** For training and fine-tuning the YOLO model (`YOLO_TRAINING.ipynb`).
-- **🌐 Flask (or similar frameworks):** Runs the web application (`app.py`).
-- **📷 OpenCV:** Image processing and real-time computer vision.
-
----
-
-## ⚙️ Installation & Setup
-
-Follow these steps to get started:
-
-1. **🔽 Clone the Repository:**
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/pranjaykumar926/VIRTUAL-TRY-ON.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
    cd VIRTUAL-TRY-ON
    ```
 
-2. **🔧 Create a Virtual Environment (Optional but Recommended):**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **📦 Install Dependencies:**
+3. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **📝 Download Pre-trained Weights (if applicable):**
-
-   Follow the steps in `YOLO_TRAINING.ipynb` to obtain the model weights.
-
----
-
-## 🚀 Usage
-
-To launch the web application demo:
-
-1. **▶️ Run the Application:**
+4. Run the application:
 
    ```bash
    python app.py
    ```
 
-2. **🌐 Open Your Browser:**
+## Resources
 
-   Navigate to `http://localhost:5000` to try on jewellery virtually.
+* **YOLO Training Notebook** – Details the training process, dataset preparation, and configuration.
+* **Presentation** – Highlights the project scope, technical approach, and results.
+* **Sample Outputs** – Includes example images demonstrating the try-on feature.
 
----
+## Future Work
 
-## 📚 YOLO Training Notebook
-
-The `YOLO_TRAINING.ipynb` notebook includes:
-
-- 🛠️ Data preprocessing and augmentation
-- 🎯 YOLO model training configuration
-- 📊 Model evaluation steps
+* Integration with more jewellery types.
+* Support for 3D rendering and AR-based previews.
+* Enhanced facial/jewellery landmark detection for improved placement accuracy.
 
 ---
 
-## 📊 Presentation
-
-For an in-depth project explanation, check out [Ppt.pdf](Ppt.pdf). 📂
-
----
-
-## 🔮 Future Enhancements
-
-- **🎯 Improved Jewellery Detection:** Train on more diverse jewellery datasets.
-- **💆️ Augmented Reality (AR):** Enhance the try-on experience with live tracking.
-- **📱 Mobile Compatibility:** Optimize for smartphones and tablets.
-- **👕 Personalized Recommendations:** AI-based jewellery recommendations.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`feature/your-feature`).
-3. Commit your changes.
-4. Open a pull request. ✅
-
----
-
-## 🐟 License
-
-*This project is currently not licensed. Contact the repository owner for permissions.*
-
----
-
-## 📩 Contact
-
-For inquiries or collaborations, reach out:
-
-- **GitHub:** [pranjaykumar926](https://github.com/pranjaykumar926) 🏰️
-- **💌 Email:** *[pranjaykumar926@gmail.com](mailto:pranjaykumar926@gmail.com)* 📩
-
----
-
-✨ *Revolutionizing jewellery shopping with AI-powered Virtual Try-On!* 💍🚀
-
+For additional information and updates, please visit the [GitHub Repository](https://github.com/pranjaykumar926/VIRTUAL-TRY-ON).
